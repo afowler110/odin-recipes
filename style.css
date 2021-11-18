@@ -72,7 +72,6 @@ a.yimyum {
 
 ul {
     height: 175px;
-    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
