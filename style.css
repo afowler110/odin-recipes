@@ -1,0 +1,79 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(105, 20, 5);
+
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(26, 15, 2) 5px 5px 10px;
+}
+
+a {
+    color: rgb(226, 134, 13);
+    font-style: italic;
+    
+}
+
+.list-1 .recipes {
+    color: blue;
+}
+
+.list-2 .recipes {
+    color: red;
+}
+
+.recipes {
+
+    text-align: center;
+    color: rgb(253, 247, 238);
+    text-shadow: black 2px 2px 5px;
+    padding: 10px;
+
+}
+
+.reclist {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    
+}
+.two {
+  text-align: center;
+  font-weight: bold;
+    
+}
+.three {
+    text-align: right;
+
+}
+
+a.yimyum {
+    background-color: rgb(253, 247, 238);
+    color: rgb(26, 15, 2);
+    text-align: center;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: rgb(26, 15, 2) 5px 5px 10px;
+    font-family: "Hobo STD", sans-serif;
+    transition: ease 0.5s
+}
+.yimyum:hover {
+    cursor: pointer;
+    background-color: rgb(226, 134, 13);
+}
+
+ul {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px
+}
