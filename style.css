@@ -79,7 +79,7 @@ ul {
 }
 
 @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
+    ul {
       flex: 100%;
     }
   }
