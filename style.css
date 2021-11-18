@@ -80,6 +80,7 @@ ul {
 
 @media (max-width: 800px) {
     ul {
+      height: auto;
       flex: 100%;
     }
   }
