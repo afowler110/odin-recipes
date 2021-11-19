@@ -16,6 +16,8 @@ img {
 a {
     color: rgb(226, 134, 13);
     font-style: italic;
+    text-decoration: none;
+
     
 }
 
@@ -41,6 +43,7 @@ a {
     text-align: center;
     padding: 10px;
     
+    
 }
 .two {
   text-align: center;
@@ -60,26 +63,37 @@ a.yimyum {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     padding: 10px;
     box-shadow: rgb(26, 15, 2) 5px 5px 10px;
     font-family: "Hobo STD", sans-serif;
     transition: ease 0.5s
+    
 }
 .yimyum:hover {
     cursor: pointer;
     background-color: rgb(226, 134, 13);
 }
 
-ul {
-    height: 175px;
+.flexcontainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 10px
+    height: 175px
+    
+
+}
+ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    align-items: center;
 }
 
+
+
 @media (max-width: 800px) {
-    ul {
+    ul.reclist {
       height: auto;
       flex: 100%;
     }
