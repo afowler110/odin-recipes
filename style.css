@@ -55,7 +55,7 @@ a {
 
 }
 
-a.yimyum {
+.yimyum a{
     background-color: rgb(253, 247, 238);
     color: rgb(26, 15, 2);
     text-align: center;
@@ -79,7 +79,8 @@ a.yimyum {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 175px
+    height: 175px;
+    margin: 0 auto;
     
 
 }
@@ -92,9 +93,8 @@ ul {
 
 
 
-@media (max-width: 800px) {
-    ul.reclist {
-      height: auto;
-      flex: 100%;
-    }
+  .pagecontainer {
+      max-width: 700px;
+      align-items: center;
+      margin: 0 auto;
   }
