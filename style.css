@@ -75,17 +75,12 @@ a {
     background-color: rgb(226, 134, 13);
 }
 
-.flexcontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 175px;
-    margin: 0 auto;
+
     
 
 }
 ul {
-    display: flex;
+    
     padding: 10px;
     list-style-type: none;
     align-items: center;
